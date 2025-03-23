@@ -1,0 +1,49 @@
+body {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header, .footer {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.noidung {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.menu {
+    background-color: deepskyblue;
+    padding: 15px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    height: 6px;
+    width: 250px;
+}
+
+.content {
+    width: 77%;
+    float: right;
+    text-align: left;
+    font-size: 14px
+}
+
+.footer {
+    clear: both;
+    padding: 20px;
+    font-size: 14px;
+}
