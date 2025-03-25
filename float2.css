@@ -1,49 +1,69 @@
 body {
-    margin: 10px;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    background-color: #f8f8f8;
+    color:black;
 }
-
-.header, .footer {
-    background-color: blue;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-    font-weight: bold;
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background: white;
 }
-
-.noidung {
-    width: 100%;
-    margin: auto;
+.header {
     overflow: hidden;
-    padding: 20px 0;
 }
-
-.sidebar {
+.logo {
+    width: 30%;
+    float: left;
+    background: rgb(114, 255, 177);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.banner {
+    width: 70%;
+    float: left;
+    background: cyan;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.bread-link {
+    background: blue;
+    padding: 15px;
+    clear: both;
+}
+.main {
+    overflow: hidden;
+    height: 300px;
+}
+.left {
     width: 20%;
     float: left;
+    background: #fce5cd;
+    padding: 50px 0;
+    box-sizing: border-box;
+    height: 300px;
+    align-content: center;
 }
-
-.menu {
-    background-color: deepskyblue;
-    padding: 15px;
-    margin-bottom: 5px;
-    color: white;
-    font-weight: bold;
-    text-align: left;
-    height: 6px;
-    width: 250px;
-}
-
 .content {
-    width: 77%;
-    float: right;
-    text-align: left;
-    font-size: 14px
+    width: 60%;
+    float: left;
+    background: #eef2f3;
+    padding: 50px 0;
+    box-sizing: border-box;
+    height: 300px;
+    align-content: center;
 }
-
+.right {
+    width: 20%;
+    float: left;
+    background: #fce5cd;
+    padding: 50px 0;
+    box-sizing: border-box;
+    height: 300px;
+    align-content: center;
+}
 .footer {
-    clear: both;
+    background: darkred;
     padding: 20px;
-    font-size: 14px;
+    clear: both;
 }
