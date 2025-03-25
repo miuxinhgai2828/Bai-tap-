@@ -1,27 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     background-color: #f8f8f8;
+    color:black;
 }
-
 .container {
     width: 900px;
     margin: 0 auto;
     background: white;
 }
-
 .header {
     overflow: hidden;
 }
-
 .logo {
     width: 30%;
     float: left;
-    background: cyan;
+    background: rgb(114, 255, 177);
     padding: 20px;
     box-sizing: border-box;
 }
-
 .banner {
     width: 70%;
     float: left;
@@ -29,45 +26,44 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
-
-.bread-crumb {
+.bread-link {
     background: blue;
-    color: white;
     padding: 15px;
     clear: both;
 }
-
 .main {
     overflow: hidden;
+    height: 300px;
 }
-
 .left {
     width: 20%;
     float: left;
     background: #fce5cd;
     padding: 50px 0;
     box-sizing: border-box;
+    height: 300px;
+    align-content: center;
 }
-
 .content {
     width: 60%;
     float: left;
     background: #eef2f3;
     padding: 50px 0;
     box-sizing: border-box;
+    height: 300px;
+    align-content: center;
 }
-
 .right {
     width: 20%;
     float: left;
     background: #fce5cd;
     padding: 50px 0;
     box-sizing: border-box;
+    height: 300px;
+    align-content: center;
 }
-
 .footer {
     background: darkred;
-    color: white;
     padding: 20px;
     clear: both;
 }
