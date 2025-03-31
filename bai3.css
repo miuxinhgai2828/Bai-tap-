@@ -1,45 +1,59 @@
 body{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.container{
-    display:grid;
-    grid-template-areas:"header" "main" "footer";
-    grid-template-rows: 80px 1fr 80px;
-    height:100px;
-}
-.header{
-    grid-area: header;
-    background-color: yellow;
+.header {
+    background: #f8e1c0;
     text-align: center;
-    line-height: 80px;
+    padding: 20px;
 }
-.main{
-    grid-area: main;
-    display: grid;
-    grid-template-areas: "sidebar content";
-    grid-template-columns: 1fr 3fr;
-    height:100%;
-}
-.sidebar{
-    grid-area: sidebar;
-    background-color: rgb(227, 99, 99);
+.menu {
+    background: #2f5858;
     text-align: center;
-    line-height: 80px;
+    padding: 15px;
+    color: white;
 }
-.content{
-    grid-area: content;
-    background-color: rgb(247, 158, 187);
-    text-align: center;
-    line-height: 80px;
+.main {
+    display: flex;
+    height: 400px;
 }
-.footer{
-    grid-area: footer;
-    background-color: brown;
+.sidebar {
+    width: 25%;
+    background: purple;
+    padding: 20px;
+    color: white;
+}
+.content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.slider {
+    background: #e88d8d;
+    padding: 50px;
     text-align: center;
-    line-height: 80px;
+    flex: 1;
+}
+.products {
+    display: flex;
+    flex: 1;
+}
+.product {
+    width: 50%;
+    background: #4682A9;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+.footer {
+    display: flex;
+    background: #f8e1c0;
+    text-align: center;
+}
+.footer div {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid black;
 }
