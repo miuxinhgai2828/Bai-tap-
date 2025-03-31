@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.header, .footer {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin-bottom:5px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top:5px;
+}
+.hero {
+    background-color: pink;
+    color: white;
+    padding: 20px;
+}
+.aside, .dichvu2 {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    width: 30%;
+}
+.footer {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+}
