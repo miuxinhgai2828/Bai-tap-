@@ -34,6 +34,7 @@ body {
     grid-area: main;
     background-color: #00bfff;
     padding: 15px;
+      font-weight: bold;
   }
 
   aside.aside2 {
